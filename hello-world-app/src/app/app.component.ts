@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-world-app';
-  logoUrl: string = 'assets/logo.png'; // Path to the logo
+  logoUrl: string = 'assets/logo.png'; // Logo Path
+
+  openBridgeLabzSite() {
+    window.open('https://www.bridgelabz.com', '_blank'); // Opens in new tab
+  }
 }
